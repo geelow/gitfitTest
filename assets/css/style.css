@@ -1,0 +1,474 @@
+/***** general styles appearing on more than one page *****/
+
+* {
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafff2;
+    font-family: "Open Sans", sans-serif, Arial;
+    padding-top: 130px;
+}
+
+.container-fluid {
+    background-color: #e8f9ff;
+    border-bottom: 1px solid #b8dfed;
+    height: 110px;
+}
+
+.container {
+    background-color: #cfeda1;
+    padding-bottom: 10px;
+    width: 94%;
+    height: 100%;
+    border: 1px solid #b6d684;
+}
+
+
+/*navbar in header*/
+
+.navbar-default .navbar-nav>li>a {
+    font-family: "Open Sans", sans-serif, Arial;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0189ba;
+    padding-top: 40px;
+}
+
+
+/*gitfit logo in header*/
+
+#logo {
+    box-sizing: border-box;
+    padding: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif, Arial;
+    /*color: black;*/
+    color: #018bbc;
+    font-weight: bolder;
+}
+
+h1.col-md-6 {
+    color: black;
+}
+
+h3 {
+    color: #018bbc;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+a:link.Recipe {
+    padding-left: 0px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:visited.Recipe {
+    padding-left: 0px;
+    color: #008000;
+    text-decoration: underline;
+}
+
+a:hover.Recipe {
+    padding-left: 0px;
+    color: #ff0000; 
+    text-decoration: none; 
+}
+
+a:active.Recipe {
+    padding-left: 0px;
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+h3.recentHistory {
+    width: auto;
+    height: auto;
+    
+    font-size: 18px;
+    color: #018bbc;
+    text-align: right;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+h1,
+h5 {
+    font-size: 18px;
+}
+
+h4 {
+    color: black;
+    font-weight: bolder;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 19px;
+}
+
+h5 {
+    color: black;
+    font-weight: bolder;
+}
+
+
+/*buttons on main and recipes pages*/
+
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+    font-size: 20px;
+    background-color: #00B0EF;
+    color: white;
+    border: 1px solid #00B0EF;
+}
+
+
+/*buttons on main and recipes pages*/
+
+.input-group-btn {
+    display: inline block;
+    width: 100%;
+}
+
+
+/*search box in main and recipes pages*/
+
+.input-group .form-control:first-child {
+    height: 42px;
+    width: 300px;
+}
+
+
+/*form text box borders*/
+
+input.form-control {
+    border: 1px solid #00B0EF;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+
+/***** main index page styles *****/
+
+#anatomy {
+    display: block;
+    margin: auto;
+    padding: 0;
+    margin: 10px 20px 10px 20px;
+}
+
+area {
+    outline: 16px solid #4cae4c;
+}
+
+#mic {
+    font-size: 14px;
+    color: grey;
+    padding-top: 8px;
+}
+
+.toggle {
+    left: 246px;
+}
+
+#toggleBody {
+    text-align: center;
+}
+
+.btn-female {
+    background-color: #00B0EF;
+    border: 1px solid #00B0EF;
+    color: white;
+    font-size: 16px;
+}
+
+#muscleMenu {
+    width: 300px;
+    height: 46px;
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#muscleMenu:hover,
+#muscleMenu:focus {
+    background-color: #388938;
+}
+
+.muscleGroups {
+    width: 300px;
+    height: 30px;
+}
+
+
+/*results after "go" button clicked*/
+
+#glute {
+    margin: 0 10px 10px 0;
+    background-color: #00B0EF;
+    display: inline;
+}
+
+
+/***** health/calculators page styles *****/
+
+#health-jumbo {
+    text-align: center;
+    color: #fafff2;
+    background-color: #cfeda1;
+    background: url(../images/weights.jpg) no-repeat center center;
+    -webkit-background-size: cover;    
+    background-size: cover;
+}
+
+#jumbText {
+    font-size: 75px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px #0d5f7c;
+}
+
+#jumbSubText {
+    font-size: 28px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px #0d5f7c;
+}
+
+.btn-default {
+    background-color: #00B0EF;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#collapseArea {
+    background-color: #fafff2;
+    margin-top: 20px;
+}
+
+#collapseButton {
+    font-size: 16px;
+    background-color: #00B0EF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button#collapseButton:hover {
+    background-color: #70d6f4;
+}
+
+#pdfs {
+    background-color: #fafff2;
+    margin-top: 20px;
+}
+
+.pdfLinks {
+    padding: 0;
+}
+
+.pdfText {
+    font-size: 16px;
+}
+
+.descHeader {
+    text-align: center;
+    background-color: #5bc0de;
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+.collapse-div {
+    background-color: #fafff2;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+#result-info {
+    background-color: #fafff2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 410px;
+    margin: auto;
+    text-align: center;
+    background-color: #7bb5d8;
+    margin-bottom: 10px;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 60%;
+    height: 50%;
+}
+
+#recipes-jumbo {
+    text-align: center;
+    color: #fafff2;
+    background-color: #cfeda1;
+    background: url(../images/food.jpg) no-repeat center center;
+    -webkit-background-size: cover;    
+    background-size: cover;
+}
+
+#jumbText {
+    font-size: 75px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 8px #0d5f7c;
+}
+
+#jumbSubText {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.recipeContainer {
+    height: 120px;
+    background-color: #7bb5d8;
+    border: none;
+}
+
+.label {
+    color: white;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.calories {
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+div.recipe-inline {
+    display: inline-block;
+    padding: 10px;
+}
+
+div.recipe-inline img {
+    width: 150px;
+    height: 150px;
+}
+
+/***** footer styles *****/
+
+.content {
+  min-height: calc(100vh - 200px);
+  margin-bottom: 20px;
+}
+.footer {
+  height: 50px;
+}
+
+
+@media (max-width: 1024px) {
+    /*Need something here*/
+    #_____ {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /*currently the nav items are disappearing at this width, fix that*/
+    #anatomy {
+        margin: 0;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 22px;
+        width: 20%;
+        background-color: #e8f9ff;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #b8dfed;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover{
+        background-color: #e8f9ff;
+    }
+
+    #logo {
+        margin: 0 125px 0 125px;
+    }
+
+    .container {
+        margin-top: 120px;
+    }
+
+    #muscleMenu {
+        margin: 10px 120px 0 120px;
+    }
+
+    h5 {
+        margin: 10px 140px 0 140px;
+    }
+
+    #mic {
+        margin: 10px 100px 0 100px;
+    }
+}

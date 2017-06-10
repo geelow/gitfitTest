@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitFit</title>
+    <link rel="shortcut icon" href="assets/images/gitfit_favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html"><img id="logo" src="assets/images/gitfit_logo.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Body</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="jumbotron" id="recipes-jumbo">
+          <h1 id="jumbText">Recipes</h1>
+          <h2 id="jumbSubText">search for healthy recipes</h2>
+        </div>
+      </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input type="text" id="recipe-input-field" class="form-control" placeholder="Enter Ingredient">
+                    <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="recipeSearchButton">Search</button>
+            </span>
+                </div>
+            </div>  
+            <div class="col-md-4" id="userResults">
+                <h3 class="recentHistory"><strong>Recent Searches:  </strong><span id="recentHistoryList"></span></h3>
+            </div>  
+        </div>
+
+        <div class="row" id="recipesRow">
+            <div class="col-md-12" id="recipesRow"></div></div>
+        </div>
+  
+  <footer class="footer">&copy;2017 Ebru Yucesar, Anuradha Ramachandra, Rachel Vaughan, Raquel Rodriguez, Jamie Gelo</footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- firebase link -->
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <!--local javascript file -->
+    <script src="assets/javascript/recipes.js"></script>
+</body>
+</html>
