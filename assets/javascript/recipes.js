@@ -50,7 +50,7 @@ function searchKeypress(event) {
     }
 }
 
-var recentSearches = []
+var recentSearches = Array.isArray(snapshot.val()) ? snapshot.val() : [];
 function onSearchClick() {
     $("#recipesRow").empty();
     //edmamam api
